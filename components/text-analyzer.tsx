@@ -10,7 +10,6 @@ import {
   Frown,
   Meh,
   Package,
-  AlertCircle,
   ChevronRight,
   Layers,
   Info
