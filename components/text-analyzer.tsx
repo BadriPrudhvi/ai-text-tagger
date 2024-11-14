@@ -198,7 +198,7 @@ export function TextAnalyzer() {
                 <div className="flex flex-col gap-3 pb-6 border-b">
                   <div className="flex items-center gap-2">
                     {getSentimentIcon(analysis.sentiment.label)}
-                    <h3 className="font-medium">Sentiment Analysis</h3>
+                    <h3 className="font-medium">Sentiment</h3>
                   </div>
                   <Badge
                     variant="secondary"
@@ -215,7 +215,7 @@ export function TextAnalyzer() {
                 <div className="flex flex-col gap-3 pb-6 border-b">
                   <div className="flex items-center gap-2">
                     <Package className="w-4 h-4" />
-                    <h3 className="font-medium">Cloudflare Products Detected</h3>
+                    <h3 className="font-medium">Cloudflare Products</h3>
                   </div>
                   {analysis.products.length > 0 ? (
                     <div className="inline-flex flex-wrap items-center gap-1.5">
@@ -242,7 +242,7 @@ export function TextAnalyzer() {
                 <div className="flex flex-col gap-3">
                   <div className="flex items-center gap-2">
                     <Layers className="w-4 h-4" />
-                    <h3 className="font-medium">Category Identified</h3>
+                    <h3 className="font-medium">Category</h3>
                   </div>
                   {analysis.issues.length > 0 ? (
                     <div className="inline-flex flex-wrap items-center gap-1.5">
